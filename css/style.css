@@ -1,0 +1,271 @@
+body{
+    margin: 0px;
+    display: block;
+    font-family: 'Times New Roman';
+}
+a{
+    text-decoration: none;
+}
+::selection{
+    background-color: white;
+    color: #726f6f;
+}
+
+.wrapper{
+    display: inline-block;
+}
+/*-------------Start nav--------- */
+.nav{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.nav .title{
+    float: right;
+    margin: 16px 50px ;
+    display: inline;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav .link{
+    height: 30px;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.nav .link img{
+    width: 40px;
+    margin-left: 20px;
+}
+/*-------------End nav--------- */
+/*-------------End home--------- */
+.home{
+    width: 100%;   
+    margin-top: 0px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+
+.home .media{
+    position: relative;
+    top: 0;
+}
+
+.media .mdeia-content{
+    width: 100%;
+    height: 330px;
+}
+
+.home .chanel-icon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30;
+    left: 30px;
+    border: 2px white solid;
+    border-radius: 50%;
+    margin-top: 0px;
+    z-index: 1;
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/*-------------End home--------- */
+
+/*-------------Start users-interaction--------- */
+.users-interaction{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    position: relative;
+    top: 0;
+    padding: 50px 0px;
+    padding-top: 10px;
+}
+
+.users-interaction .right-controls{
+    display: inline;
+    float: right;
+    margin-right: 30px;
+}
+
+.users-interaction .left-controls{
+    float: left;
+    margin-left: 10px;
+}
+
+.right-controls .controls{
+    display: inline-block;
+    height: 22x;
+}
+
+.controls img{
+    width: 30px;
+    margin-left:18px;
+}
+
+.users-interaction .like-count{
+    width: 100%;
+    overflow: auto;
+    direction: rtl;
+}
+
+.like-count a{
+    color: white;
+    float: right;
+    margin-right: 34px;
+    margin-top: 14px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.users-interaction .description p{
+    color: white;
+    float: right;
+    font-size: 20px;
+    text-align: right;
+    width: 80%;
+    overflow: auto;
+    padding: 10px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.users-interaction .description a{
+    color: white;
+    float: right;
+    font-size: 16px;
+    word-spacing: 2;
+    text-align: right;
+
+    width: 70%;
+    overflow: auto;
+    padding: 0px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.comment-row{
+    width: 100%;
+    float: right;
+    margin: 1px 40px;
+    position: relative;
+}
+
+.comment-row .user-icon{
+    width: 30px;
+    height: 30px;
+    float: right;
+    border: 2px white solid;
+    border-radius: 50%;
+    margin-top: 10px;
+    z-index: 4;
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.comment-row .user-icon img{
+    width: 50px;
+    position: relative;
+    margin: 5px 0px;
+}
+
+.comment-row #user-comment{
+    word-break: break-all;
+    width: 400px;
+    overflow: auto;
+    float: right;
+    margin: 16px 10px;
+    border: 0px transparent solid;
+    background-color: transparent;
+    position: relative;
+    color: white;
+    vertical-align: bottom;
+    direction: rtl;
+    height: 30px;
+    font-size: large;
+}
+
+.comment-row #user-comment:focus{
+    border: 1px transparent solid;
+}
+
+.comment-row #display-time{
+    float: right;
+    margin-right: 15px;
+    width: 100%;
+    height: auto;
+    color: white;
+    direction: rtl;
+    word-spacing: 2;
+    font-size: small;
+}
+/*-------------End users-interaction--------- */
+
+
+/*------- Start bottom-nav-------- */
+.bottom-nav{
+    position: sticky;
+    width: 100%;
+    height: 30px;
+    padding: 10px 0px;
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    bottom: 0px;
+}
+
+.bottom-nav .icon-home{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("../img/icons/icons8-home-384.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bottom-nav .icon-reals{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("../img/icons/icons8-instagram-reels-50.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bottom-nav .icon-add{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("../img/icons/icons8-add-new-100.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bottom-nav .icon-search{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("../img/icons/icons8-search-50.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bottom-nav .icon-profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*------- End bottom-nav-------- */
